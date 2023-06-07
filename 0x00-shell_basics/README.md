@@ -5,3 +5,5 @@
 2-bring_me_home > is an executable file that changes the working directory to the user's home directory
 
 3-listfiles > is an executable file that display current directory contents in a long format
+
+4-listmorefiles > is an executable file that display current directory contents in a long format including the hidden files
