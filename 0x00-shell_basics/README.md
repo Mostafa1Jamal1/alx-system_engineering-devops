@@ -7,3 +7,5 @@
 3-listfiles > is an executable file that display current directory contents in a long format
 
 4-listmorefiles > is an executable file that display current directory contents in a long format including the hidden files
+
+5-listfilesdigitonly > is an executable file that display current directory contents in a long format including the hidden files with user and group IDs displayed numerically
