@@ -7,3 +7,5 @@
 3-new_owner > is an executable file that changes the owner of the file hello to the user betty.
 
 4-empty > is an executable file that creates an empty file called hello.
+
+5-execute > is an executable file that adds execute permission to the owner of the file hello.
