@@ -21,3 +21,5 @@
 
 9-John_Doe > is an executable file that sets the mode of the file hello to this:
 -rwxr-x-wx
+
+10-mirror_permissions > is an executable file that sets the mode of the file hello the same as olleh’s mode.
