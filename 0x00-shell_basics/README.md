@@ -23,3 +23,5 @@
 11-lists > is an executable file that lists all files (even ones with names beginning with a period character, which are normally hidden) in the current directory and the parent of the working directory and the /boot directory (in this order), in long format.
 
 12-file_type > is an executable file that prints the type of the file named iamafile. The file iamafile will be in the /tmp directory.
+
+13-symbolic_link > is an executable file that creates a symbolic link to /bin/ls, named __ls__.
