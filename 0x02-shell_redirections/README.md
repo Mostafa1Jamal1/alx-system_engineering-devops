@@ -5,3 +5,5 @@
 2-hellofile > an executable file that display the content of the /etc/passwd file.
 
 3-twofiles > an executable file that display the content of /etc/passwd and /etc/hosts .
+
+4-lastlines > an executable file that display the last 10 lines of /etc/passwd .
