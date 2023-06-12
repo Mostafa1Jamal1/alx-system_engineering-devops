@@ -3,3 +3,5 @@
 1-confused_smiley > an executable file that displays a confused smiley "(Ôo)'.
 
 2-hellofile > an executable file that display the content of the /etc/passwd file.
+
+3-twofiles > an executable file that display the content of /etc/passwd and /etc/hosts .
