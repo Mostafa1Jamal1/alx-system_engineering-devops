@@ -25,3 +25,8 @@
 - Hidden directories should be counted
 
 12-newest_files > an executable file that displays the 10 newest files in the current directory.
+
+13-unique > an executable file that  takes a list of words as input and prints only words that appear exactly once.
+- Input format: One line, one word
+- Output format: One line, one word
+- Words should be sorted
