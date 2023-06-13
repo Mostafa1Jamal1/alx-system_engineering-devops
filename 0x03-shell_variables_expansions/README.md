@@ -7,3 +7,5 @@
 3-paths > is an executable file that counts the number of directories in the PATH.
 
 4-global_variables > is an executable file that lists environment variables.
+
+5-local_variables > is an executable file that lists all local variables and environment variables, and functions.
