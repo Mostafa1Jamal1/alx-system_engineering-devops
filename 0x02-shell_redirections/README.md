@@ -19,3 +19,7 @@
 9-duplicate_last_line > an executable file that duplicates the last line of the file iacta.
 
 10-no_more_js > an executable file that deletes all the regular files (not the directories) with a .js extension that are present in the current directory and all its subfolders.
+
+11-directories > an executable file that counts the number of directories and sub-directories in the current directory.
+- The current and parent directories should not be taken into account
+- Hidden directories should be counted
