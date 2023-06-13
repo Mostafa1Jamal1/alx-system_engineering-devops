@@ -5,3 +5,5 @@
 2-path > is an executable file that add /action to the PATH. /action should be the last directory the shell looks into when looking for a program.
 
 3-paths > is an executable file that counts the number of directories in the PATH.
+
+4-global_variables > is an executable file that lists environment variables.
