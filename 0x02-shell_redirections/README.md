@@ -34,3 +34,5 @@
 14-findthatword > an executable file that display lines containing the pattern “root” from the file /etc/passwd
 
 15-countthatword > an executable file that display the number of lines that contain the pattern “bin” in the file /etc/passwd
+
+16-whatsnext > an executable file that display lines containing the pattern “root” and 3 lines after them in the file /etc/passwd.
