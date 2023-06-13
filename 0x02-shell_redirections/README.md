@@ -1,4 +1,4 @@
-0-hello_world > an executable file that prints “Hello, World”, followed by a new line to the s11;rgb:0000/0000/0000tandard output.
+0-hello_world > an executable file that prints “Hello, World”, followed by a new line to the s11;rgb:0000/0000/000011;rgb:0000/0000/0000tandard output.
 
 1-confused_smiley > an executable file that displays a confused smiley "(Ôo)'.
 
@@ -38,3 +38,5 @@
 16-whatsnext > an executable file that display lines containing the pattern “root” and 3 lines after them in the file /etc/passwd.
 
 17-hidethisword > an executable file that display all the lines in the file /etc/passwd that do not contain the pattern “bin”.
+
+18-letteronly > an executable file that display all lines of the file /etc/ssh/sshd_config starting with a letter.
