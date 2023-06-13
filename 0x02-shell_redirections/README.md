@@ -1,4 +1,4 @@
-0-hello_world > an executable file that prints “Hello, World”, followed by a new line to the standard output.
+0-hello_world > an executable file that prints “Hello, World”, followed by a new line to the s11;rgb:0000/0000/0000tandard output.
 
 1-confused_smiley > an executable file that displays a confused smiley "(Ôo)'.
 
@@ -32,3 +32,5 @@
 - Words should be sorted
 
 14-findthatword > an executable file that display lines containing the pattern “root” from the file /etc/passwd
+
+15-countthatword > an executable file that display the number of lines that contain the pattern “bin” in the file /etc/passwd
