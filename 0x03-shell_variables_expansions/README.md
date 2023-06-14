@@ -29,3 +29,6 @@
 - The number in base 2 is stored in the environment variable BINARY
 
 12-combinations > is an executable file that prints all possible combinations of two letters, except oo .
+
+13-print_float > is an executable file that prints a number with two decimal places, followed by a new line.
+- The number will be stored in the environment variable NUM.
