@@ -37,3 +37,5 @@
 - The number in base 10 is stored in the environment variable DECIMAL
 
 101-rot13 > is an executable file that encodes and decodes text using the rot13 encryption. Assume ASCII.
+
+102-odd > is an executable file that prints every other line from the input, starting with the first line. (print only odd line numbers)
