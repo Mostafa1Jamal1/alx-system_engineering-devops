@@ -35,3 +35,5 @@
 
 100-decimal_to_hexadecimal > is an executable file that converts a number from base 10 to base 16.
 - The number in base 10 is stored in the environment variable DECIMAL
+
+101-rot13 > is an executable file that encodes and decodes text using the rot13 encryption. Assume ASCII.
