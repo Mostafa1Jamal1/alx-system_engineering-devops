@@ -40,3 +40,15 @@
 17-hidethisword > an executable file that display all the lines in the file /etc/passwd that do not contain the pattern “bin”.
 
 18-letteronly > an executable file that display all lines of the file /etc/ssh/sshd_config starting with a letter.
+
+
+
+
+
+
+
+100-empty_casks > an executable file that finds all empty files and directories in the current directory and all sub-directories.
+- Only the names of the files and directories should be displayed (not the entire path)
+- Hidden files should be listed
+- One file name per line
+- The listing should end with a new line
