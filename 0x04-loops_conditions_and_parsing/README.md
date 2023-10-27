@@ -11,3 +11,9 @@ If any file or directory that is not described may be for testing purposes
 - The first line of my Bash script starts with #!/usr/bin/env bash
 - The second line of my Bash scripts is a comment explaining what it is doing
 
+
+`2-while_best_school` -> is a file of a Bash script that displays Best School 10 times.
+-Using while loop now
+
+
+
