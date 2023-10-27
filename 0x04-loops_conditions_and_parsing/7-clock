@@ -6,7 +6,7 @@
 hour=0
 minutes=1
 echo "Hour: $hour"
-while (( hour <= 12 )); do
+while (( hour < 12 )); do
 	if (( minutes > 59 ))
 	then
 		(( hour++ ))
@@ -17,3 +17,4 @@ while (( hour <= 12 )); do
 		(( minutes++ ))
 	fi
 done
+echo "Hour: $hour"
