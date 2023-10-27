@@ -19,3 +19,7 @@ If any file or directory that is not described may be for testing purposes
 `3-until_best_school` -> is a file of a Bash script that displays Best School 10 times.
 -Using the until loop
 
+
+`4-if_9_say_hi` -> is a file of a Bash script that displays Best School 10 times
+but for the 9th iteration, displays Best School and then Hi on a new line.
+
