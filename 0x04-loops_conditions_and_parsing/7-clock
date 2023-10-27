@@ -17,4 +17,3 @@ while (( hour < 12 )); do
 		(( minutes++ ))
 	fi
 done
-echo "Hour: $hour"
