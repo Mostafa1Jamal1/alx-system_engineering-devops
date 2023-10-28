@@ -21,8 +21,12 @@ int main(void)
 				printf("Zombie process created, PID: %d\n", child);
 		}
 		else
-			break;
+		{
+			return (0);
+		}
 	}
+	if (child == 0)
+		return (0);
 	infinite_while();
 	return (0);
 }
