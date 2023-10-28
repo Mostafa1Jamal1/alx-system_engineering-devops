@@ -14,19 +14,14 @@ int main(void)
 
 	for (i = 0; i < 5; i++)
 	{
+		child = fork();
+		/* print in the parent */
 		if (child > 0)
-		{
-			child = fork();
-			if (child > 0)
-				printf("Zombie process created, PID: %d\n", child);
-		}
-		else
-		{
+			printf("Zombie process created, PID: %d\n", child);
+		/* Return from child */
+		if (child == 0)
 			return (0);
-		}
 	}
-	if (child == 0)
-		return (0);
 	infinite_while();
 	return (0);
 }
