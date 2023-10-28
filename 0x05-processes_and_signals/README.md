@@ -52,3 +52,18 @@ You cannot use kill or killall
 - Displays Y U no love me?! when receiving a SIGINT signal
 - Deletes the file /var/run/myscript.pid and terminates itself when receiving a SIGQUIT or SIGTERM signal
 
+
+`102-zombie.c` -> a C program that creates 5 zombie processes.
+- For every zombie process created, it displays `Zombie process created, PID: ZOMBIE_PID`
+- Your code should use the Betty style. It will be checked using `betty-style.pl` and `betty-doc.pl`
+- When your code is done creating the parent process and the zombies, use the function bellow
+
+`int infinite_while(void)
+{
+    while (1)
+    {
+        sleep(1);
+    }
+    return (0);
+}`
+
