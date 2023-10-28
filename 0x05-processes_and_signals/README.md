@@ -30,3 +30,6 @@ In between each iteration of the loop, add a sleep 2
 
 `5-dont_stop_me_now` -> a Bash script that stops `4-to_infinity_and_beyond` process.
 
+
+`6-stop_me_if_you_can` -> a Bash script that stops `4-to_infinity_and_beyond` process.
+You cannot use kill or killall
