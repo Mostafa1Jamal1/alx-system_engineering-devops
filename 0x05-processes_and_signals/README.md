@@ -33,3 +33,10 @@ In between each iteration of the loop, add a sleep 2
 
 `6-stop_me_if_you_can` -> a Bash script that stops `4-to_infinity_and_beyond` process.
 You cannot use kill or killall
+
+
+`7-highlander` -> a Bash script that displays:
+- To infinity and beyond indefinitely
+- With a sleep 2 in between each iteration
+- I am invincible!!! when receiving a SIGTERM signal
+
