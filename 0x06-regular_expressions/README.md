@@ -12,6 +12,9 @@ Because the focus of this exercise is to play with regular expressions (regex), 
 puts ARGV[0].scan(/127.0.0.[0-9]/).join
 ```
 
-`0-simply_match_school.rb`: a Ruby script that accepts one argument and pass it to a regular expression matching method
+`0-simply_match_school.rb` -> a Ruby script that accepts one argument and pass it to a regular expression matching method
 - The regular expression must match School
+
+
+`1-repetition_token_0.rb` -> a Ruby script that accepts one argument and pass it to a regular expression matching method
 
