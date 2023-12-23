@@ -14,3 +14,12 @@ File owner is www-data
 File group is www-data
 File contains I love Puppet
 
+
+`1-install_a_package.pp` -> Using Puppet, install flask from pip3.
+
+Requirements:
+
+Install flask
+Version must be 2.1.0
+
+
