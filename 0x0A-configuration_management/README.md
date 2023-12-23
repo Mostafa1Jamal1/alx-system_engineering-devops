@@ -23,3 +23,9 @@ Install flask
 Version must be 2.1.0
 
 
+`2-execute_a_command.pp` -> a manifest that kills a process named killmenow.
+
+Requirements:
+
+use the exec Puppet resource
+use pkill
