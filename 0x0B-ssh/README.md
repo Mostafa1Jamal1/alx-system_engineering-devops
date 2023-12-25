@@ -22,3 +22,6 @@ Requirements:
 SSH client configuration is configured to use the private key ~/.ssh/school
 SSH client configuration is configured to refuse to authenticate using a password
 
+
+`100-puppet_ssh_config.pp` -> Puppet to make changes to our configuration file.
+Just as in the previous configuration file
