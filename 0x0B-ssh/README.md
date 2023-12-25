@@ -16,3 +16,9 @@ Number of bits in the created key to be created 4096
 The created key must be protected by the passphrase betty
 
 
+`2-ssh_config` -> SSH client configuration file
+Requirements:
+
+SSH client configuration is configured to use the private key ~/.ssh/school
+SSH client configuration is configured to refuse to authenticate using a password
+
