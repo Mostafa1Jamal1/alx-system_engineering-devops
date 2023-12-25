@@ -1,11 +1,13 @@
-augeas{"Turn off passwd auth" :
-  context => "/etc/ssh/ssh_config",
-  changes => "set PasswordAuthentication no",
+include stdlib
+
+file_line { 'Turn off passwd auth':
+  path  => '/etc/ssh/ssh_config',
+  line  => 'PasswordAuthentication no',
+  match => '^\s*PasswordAuthentication no'
 }
 
-
-augeas{"Declare identity file" :
-  context => "/etc/ssh/ssh_config",
-  changes => "set IdentityFile ~/.ssh/school",
+file_line { 'Turn off passwd auth':
+  path  => '/etc/ssh/ssh_config',
+  line  => 'IdentityFile ~/.ssh/school',
+  match => '^\s*IdentityFile'
 }
-
