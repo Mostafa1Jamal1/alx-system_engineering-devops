@@ -6,4 +6,4 @@
 # it must return a page that contains the string Hello World!
 apt-get update
 apt-get install nginx -y
-echo "Hello World!" > /var/www/html/index*html
+echo "Hello World!" > /var/www/html/index.nginx-debian.html
