@@ -24,3 +24,5 @@ Requirements:
 - Nginx should be listening on port 80
 - When querying Nginx at its root / with a GET request (requesting a page) using curl, it must return a page that contains the string Hello World!
 
+
+`2-setup_a_domain_name` -> contain my domain name
