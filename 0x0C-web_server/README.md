@@ -26,3 +26,6 @@ Requirements:
 
 
 `2-setup_a_domain_name` -> contain my domain name
+
+
+`3-redirection` -> make a redirection to another page
