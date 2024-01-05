@@ -29,3 +29,7 @@ Requirements:
 
 
 `3-redirection` -> make a redirection to another page
+
+
+`4-not_found_page_404` -> Configure your Nginx server to have a custom 404 page that contains the string Ceci n'est pas une page
+
