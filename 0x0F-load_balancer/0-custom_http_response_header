@@ -24,7 +24,7 @@ echo "server {
 
 	server_name _;
 
-	add_header X-Served-By $HOSTNAME
+	add_header X-Served-By $HOSTNAME;
 
 	location /redirect_me {
                 return 301 https://github.com/Mostafa1Jamal1;
