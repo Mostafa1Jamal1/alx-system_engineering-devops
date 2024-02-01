@@ -11,7 +11,7 @@ echo "Hello World!" > /var/www/html/index*html
 echo "Ceci n'est pas une page" > /var/www/html/custom404.html
 
 # delete the default link from sites-enabled
-rm /etc/nginx/site-enabled/default
+rm /etc/nginx/sites-enabled/default
 
 # create a new conf file
 echo "server {
