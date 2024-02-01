@@ -41,9 +41,8 @@ echo "server {
                 try_files \$uri \$uri/ =404;
         }
 
-}" > /etc/nginx/site-available/new_default
-ln -s /etc/nginx/site-available/new_default /etc/nginx/site-enabled/
-
+}" > /etc/nginx/sites-available/new_default
+ln -s /etc/nginx/sites-available/new_default /etc/nginx/sites-enabled/
 # restart the service
 service nginx start
 service nginx restart
