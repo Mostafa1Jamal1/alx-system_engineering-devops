@@ -5,7 +5,10 @@
 
 # install nginx
 apt-get -y update
+apt-get -y upgrade
 apt-get -y install nginx
+# (task 1)
+echo "Hello World!" > /var/www/html/index*html
 # make the redirection (task 3)
 redirect_string="\tlocation /redirect_me {\n\t\treturn 301 https://github.com/Mostafa1Jamal1;\n\t}\n\n"
 sed -i "\@^\s*location / {@s@^@$redirect_string@" /etc/nginx/sites-available/default
