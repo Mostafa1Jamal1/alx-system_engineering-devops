@@ -7,12 +7,12 @@
 apt-get -y update
 apt-get -y install nginx
 # make the redirection (task 3)
-redirect_string="\tlocation /redirect_me {\n\t\treturn 301 https://www.youtube.com/watch?v=QH2-TGUlwu4;\n\t}\n"
+redirect_string="\tlocation /redirect_me {\n\t\treturn 301 https://www.youtube.com/watch?v=QH2-TGUlwu4;\n\t}\n\n"
 sed -i "\@^\s*location / {@s@^@$redirect_string@" /etc/nginx/sites-available/default
 # make a custom 404 file
 echo "Ceci n'est pas une page" > /var/www/html/custom404.html
 # configure the file
-custom404_s="\terror_page 404 /custom404.html;\n\tlocation = /custom404.html {\n\t\tinternal;\n\t}"
+custom404_s="\terror_page 404 /custom404.html;\n\tlocation = /custom404.html {\n\t\tinternal;\n\t}\n\n"
 sed -i "\@^\s*location / {@s@^@$custom404_s@" /etc/nginx/sites-available/default
 # restart the service
 service nginx restart
