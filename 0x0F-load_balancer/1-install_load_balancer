@@ -20,15 +20,16 @@ apt update && apt upgrade -y #again
 cp -a /etc/haproxy/haproxy.cfg{,.original}
 
 ## edit the configuration file
-echo "frontend mostafa-frontend
-\tbind *:80
-\tmode http
-\tdefault_backend mostafa-backend
+echo "
+frontend mostafa-frontend
+	bind *:80
+	mode http
+	default_backend mostafa-backend
 
 backend mostafa-backend
-\tbalance roundrobin
-\tserver web-01 54.157.131.239
-\tserver web-02 34.202.157.240
+	balance roundrobin
+	server web-01 54.157.131.239
+	server web-02 34.202.157.240
 " >> /etc/haproxy/haproxy.cfg
 
 ## restart HAproxy
