@@ -19,6 +19,9 @@ apt update && apt upgrade -y #again
 ## save a copy of the default configration
 cp -a /etc/haproxy/haproxy.cfg{,.original}
 
+## Make sure that HAproxy can be managed via an init script
+echo "ENABLED=1" >> /etc/default/haproxy
+
 ## edit the configuration file
 echo "
 frontend mostafa-frontend
