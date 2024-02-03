@@ -6,7 +6,7 @@
 
 # 1- Update the OS
 apt-get update
-apt-get upgrade
+apt-get upgrade -y
 
 # 2- Install HAproxy
 apt-get install --no-install-recommends software-properties-common -y
