@@ -3,6 +3,7 @@
 # and listening on port 80 of all the server’s active IPv4 IPs
 
 sudo apt-get update
-sudo apt-get upgrade -y
+sudo apt-get purge nginx nginx-common
+sudo apt-get autoremove
 sudo apt-get install nginx -y
 sudo service nginx start
