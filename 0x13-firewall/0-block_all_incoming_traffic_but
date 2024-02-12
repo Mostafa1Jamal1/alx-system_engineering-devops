@@ -1,3 +1,4 @@
+sudo apt-get install ufw -y
 sudo ufw allow proto tcp any to any port 22
 sudo ufw allow proto tcp any to any port 443
 sudo ufw allow proto tcp any to any port 80
