@@ -3,6 +3,5 @@
 sudo chmod 644 /etc/nginx/nginx.conf
 sudo service apache2 stop
 sudo sed -i '/user/ s/.*/user nginx;/' /etc/nginx/nginx.conf
-sudo sed -i '/listen .*80 /s/80/8080/' /etc/nginx/sites-enabled/default
-sudo service nginx stop
+sudo sed -i '/ 80 default_server/s/80/8080/' /etc/nginx/sites-enabled/default
 sudo su -c '/etc/init.d/nginx start' nginx
