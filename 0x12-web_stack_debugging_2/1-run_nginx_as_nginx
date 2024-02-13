@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 # make nginx run as nginx user
 sudo chmod 644 /etc/nginx/nginx.conf
+sed -i '/user/ s/.*/user nginx;/' /etc/nginx/nginx.conf
 sudo service nginx stop
 sudo su -c '/etc/init.d/nginx start' nginx
