@@ -2,5 +2,5 @@
 # generates a MySQL dump and creates a compressed archive out of it.
 DATE="$(date '+%d-%m-%Y')"
 ARCHIVE="$DATE.tar.gz"
-sudo mysqldump -u root --password "$1" --all-databases --result-file=backup.sql
+sudo mysqldump -user=root --password="$1" --all-databases --result-file=backup.sql
 tar -cvzf "$ARCHIVE" backup.sql
