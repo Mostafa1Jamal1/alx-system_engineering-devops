@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+DATE="$(date '+%d-%m-%Y')"
+ARCHIVE="$DATE.tar.gz"
+sudo mysqldump -u root --password "$1" --all-databases | tee backup.sql
+tar -cvzf "$ARCHIVE" backup.sql
