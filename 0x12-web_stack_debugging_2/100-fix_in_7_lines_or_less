@@ -5,3 +5,4 @@ pkill apache2
 sudo sed -i '/user/ s/.*/user nginx;/' /etc/nginx/nginx.conf
 sudo sed -i '/[ :]80 default_server/s/80/8080/' /etc/nginx/sites-enabled/default
 sudo -u nginx service nginx start
+
