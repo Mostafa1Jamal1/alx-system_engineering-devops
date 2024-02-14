@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# generates a MySQL dump and creates a compressed archive out of it.
 DATE="$(date '+%d-%m-%Y')"
 ARCHIVE="$DATE.tar.gz"
 sudo mysqldump -u root --password "$1" --all-databases | tee backup.sql
