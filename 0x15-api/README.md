@@ -19,6 +19,8 @@ Employee Ervin Howell is done with tasks(8/20):
      totam atque quo nesciunt
 `
 
+
+
 `1-export_to_CSV.py` -> Python script to export data in the CSV format.
 example:
 `
@@ -46,3 +48,9 @@ sylvain@ubuntu$ cat 2.csv
 "2","Antonette","True","totam atque quo nesciunt"
 sylvain@ubuntu$
 `
+
+
+
+`2-export_to_JSON.py` -> similar to `1-export_to_CSV.py` but export to json file
+
+
