@@ -13,7 +13,7 @@ if __name__ == "__main__":
     r = requests.get(url)
     respond_dict = json.loads(r.text)
 
-    name = respond_dict.get('name')
+    name = respond_dict.get('username')
     todos = respond_dict.get('todos')
 
     lines = ""
