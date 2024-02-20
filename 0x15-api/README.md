@@ -54,3 +54,5 @@ sylvain@ubuntu$
 `2-export_to_JSON.py` -> similar to `1-export_to_CSV.py` but export to json file
 
 
+
+`3-dictionary_of_list_of_dictionaries.py` -> Records all tasks from all employees
